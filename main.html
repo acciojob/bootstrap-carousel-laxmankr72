@@ -14,8 +14,8 @@
     <div class="carousel-item slide">
       <img src="..." class=" second-slide d-block w-100" alt="...">
     </div>
-    <div class="carousel-item slide active">
-      <img src="..." class=" third-slide d-block w-100" alt="...">
+    <div class="carousel-item slide ">
+      <img src="..." class=" third-slide active d-block w-100" alt="...">
     </div>
     <div class="carousel-item slide">
       <img src="..." class=" fourth-slide d-block w-100" alt="...">
@@ -24,12 +24,14 @@
       <img src="..." class=" fifth-slide d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon glyphicon-chevron-left left carousel-control" aria-hidden="true"></span>
-  </button>
-  <button class="carousel-control-next " type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon glyphicon-chevron-right right carousel-control" aria-hidden="true"></span>
-  </button>
+ <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+
 </div>
     <!-- Bootstrap Bundle with Popper -->	
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
